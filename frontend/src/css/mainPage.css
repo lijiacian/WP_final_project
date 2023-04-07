@@ -1,0 +1,19 @@
+.mainPageContainer {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+}
+
+.mainPage {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+}
+
+.duckduck {
+	width: 25%;
+	border-radius: 10px;
+}

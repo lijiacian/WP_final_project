@@ -1,0 +1,7 @@
+.container {
+  position: absolute;
+  left: 17em;
+  top: 10em;
+  width: calc(100% - 17em);
+  height: calc(100% - 10em);
+}

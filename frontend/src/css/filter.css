@@ -1,0 +1,96 @@
+.filterRow {
+    width: calc(100% - 17em);
+    height: 5em;
+    flex-direction: row;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(219, 197, 180);
+    z-index: 100;
+}
+
+.filterContainer {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.filterDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 5em;
+    width: 100%;
+    overflow-y: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.filterName {
+    width: 10%;
+}
+.filterActivity {
+    width: 10%;
+}
+
+.resBlock {
+    margin: 2em;
+    margin-bottom: 3em;
+    display: block;
+    width: 300px;
+    height: 270px;
+    background: rgb(157, 132, 112);
+    border-radius: 10px;
+}
+
+.resBlock:hover {
+    cursor: pointer;
+}
+
+.resImgContainer {
+    width: 300px;
+    height: 198px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resImg {
+    width: 250px;
+    border-radius: 8px;
+}
+
+.resInfo {
+    padding: 0.5em;
+    text-align: left;
+    width: 284px;
+}
+
+.resInfo .title {
+    display: flex;
+    justify-content: center;
+    height: 6%;
+    max-height: 25px;
+}
+
+.resInfo .title .equipment {
+    justify-content: center;
+    width: 55%;
+    height: 6%;
+    font-size: 14px;
+}
+
+.resInfo .title .attr {
+    text-align: right;
+    padding-right: 1em;
+    width: 10%;
+    height: 6%;
+    font-size: 14px;
+}
